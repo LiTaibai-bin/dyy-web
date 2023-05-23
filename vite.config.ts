@@ -8,6 +8,16 @@ import { resolve } from "path";
 const excludeComponents = ['LightIcon','DarkIcon']
 
 export default defineConfig({
+  css: {
+    preprocessorOptions: {
+      scss: {
+        charset: false
+      }
+    }
+  },
+  build: {
+    minify: false
+  },
   resolve: {
     alias: [
       {
