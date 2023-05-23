@@ -3,7 +3,7 @@ import Router from './router'
 import Store from './store'
 import App from './App.vue'
 import { permission } from "./directives/permission";
-import './mockjs'
+// import './mockjs'
 
 const app = createApp(App)
 
